@@ -1,0 +1,5 @@
+set -tmpdir "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/xst/projnav.tmp"
+set -xsthdpdir "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/xst"
+elaborate
+-ifn instructionMemory.prj
+-ifmt mixed

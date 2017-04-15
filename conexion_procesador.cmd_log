@@ -1,0 +1,3 @@
+vhdtdtfi -lib work conexion_procesador.vhd -prj Procesador -o conexion_procesador.spl -module conexion_procesador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e conexion_procesador.spl {D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/conexion_procesador.sym} 
+xst -intstyle ise -ifn "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/conexion_procesador.xst" -ofn "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/conexion_procesador.syr" 

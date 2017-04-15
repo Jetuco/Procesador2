@@ -1,0 +1,6 @@
+[Inputs]
+rst
+=inmediato13bits[12:0]=
+[Outputs]
+=salidaInmediato[31:0]=
+[BiDir]
